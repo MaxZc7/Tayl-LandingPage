@@ -3,7 +3,7 @@ import { InlineWidget } from 'react-calendly';
 export default function ScheduleMeeting() {
   return (
     <div
-      className="md:w-full md:h-screen max-w-[1450px] mx-auto mt-10"
+      className="md:w-full md:h-screen max-w-[1450px] mx-auto mt-[25vh] md:mt-10"
       id="Meeting"
     >
       <div className="flex justify-between flex-col md:flex-row">
