@@ -7,7 +7,7 @@ export default function ScheduleMeeting() {
       id="Meeting"
     >
       <div className="flex justify-between flex-col md:flex-row">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mb-[5vh] md:mb-0">
           <div className="text-center text-5xl font-semibold text-slate-700">
             <h4 className="uppercase">Schedule a</h4>
           </div>
@@ -15,7 +15,7 @@ export default function ScheduleMeeting() {
             <strong className="gradient-txt">meeting</strong>
           </div>
         </div>
-        <div className="mt-3 text-center font-bold ">
+        <div className="mt-3 text-center font-bold  mb-[5vh] md:mb-0">
           <h4 className="text-xl text-slate-700 m-1">
             Schedule a meeting with us and let us help you boost your sales
           </h4>
